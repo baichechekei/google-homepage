@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GOOGLE</title>
+  <title>Google</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
 
   <div id="container">
 
-    <div id="navigation">
+    <nav id="navigation">
       <ul>
-        <li>Mail</li>
-        <li>Pictures</li>
-        <li>Apps</li>
-        <li>Alerts</li>
-        <li>Account</li>
+        <li><a href="#"><img src="images/a.jpg" id="account-a"></a></li>
+        <li><a href=""><img src="images/alert.png" id="nav-pic"></a></li>
+        <li><a href="#"><img src="images/apps.png" id="nav-pic"></a></li>
+        <li><a href="#">Картинки</a></li>
+        <li><a href="#">Пoчта</a></li>
       </ul>
-    </div>
+    </nav>
 
     <div id="content">
 
       <div id="logo"><img src="https://www.google.co.jp/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
       <span id="country">Japan</span>
-
-      <div id="search-box"></div>
-
-      <div id="buttons"></div>
+      <form>
+        <input type="search" name="search" id="search-box"></input>
+        <div id="buttons">
+          <button id="button-1">Поиск в Google</button>
+          <button id="button-2">Мне повезет!</button>
+        </div>
+      </form>
 
       <div id="language">Google.co.jp предлагается на: <a href="#">日本語</a></div>
 
     </div>
 
-    <div id="footer">
-    </div>
-
   </div>
 
+  <footer id="footer">
+    <ul id="footer-left">
+      <li><a href="#">Все о Google</a></li>
+      <li><a href="">Для бизнеса</a></li>
+      <li><a href="#">Реклама</a></li>
+    </ul>
+    <span id="clear" ></span>
+    <ul id="footer-right">
+      <li><a href="#">Перейти на Google.com</a></li>
+      <li><a href="">Настройки</a></li>
+      <li><a href="#">Условия</a></li>
+      <li><a href="#">Конфиденциальность</a></li>
+    </ul>
+  </footer>
 
 </body>
 </html>

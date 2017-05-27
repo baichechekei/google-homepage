@@ -1,0 +1,154 @@
+* {
+  /*border: 1px solid blue;*/
+}
+
+#container {
+    /*background-color: red;*/
+    font-family: arial, sans-serif;
+    font-size: small;
+    color: #000;
+}
+
+nav {
+  /*background-color: yellow;*/
+  padding: 10px;
+  direction: rtl;
+}
+img {
+  padding: 0;
+  margin: 0;
+}
+
+
+#account-a {
+  border-radius: 60%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+
+
+}
+
+li {
+  /*display: inline-block;*/
+  float: right;
+  padding: 0 10px;
+
+
+}
+
+
+li a {
+  text-decoration: none;
+
+}
+
+
+#content {
+    /*background-color: grey;*/
+    position: relative;
+    top: 100px;;
+    left: 40%;
+
+
+}
+
+#logo {
+    /*background-color: green;*/
+    position: relative;
+    top: 33px;
+    left: 6px;
+
+}
+
+#country {
+    color: #4285f4;
+    font: 16px/16px arial, sans-serif;
+    left: 220px;
+    position: relative;
+    top: 13px;
+    white-space: nowrap;
+
+}
+
+#search-box {
+    /*background-color: yellow;*/
+    position: absolute;
+    border: 1px solid #bbb;
+    /*shadow: 10px;*/
+    top: 150px;
+    left: -140px;
+    width: 40%;
+    height: 40px;
+}
+
+button {
+    background-color: #eee;
+    color: #666;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+}
+#buttons {
+  position: relative;
+  top: 15px;
+  left: -45px;
+}
+#button-1 {
+  position: relative;
+  top: 100px;
+  left: 60px;
+}
+#button-2 {
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+
+#language {
+    /*background-color: pink;*/
+    position: relative;
+    top: 125px;
+    left: 15px;
+    /*color: #666;*/
+    padding: 10px;
+    /*font-size: 1em;*/
+    /*font-weight: bold;*/
+    border: none;
+}
+
+footer {
+    background-color: #eee;
+    position: absolute;
+    bottom: 0;
+    padding: 0 15px 0 15px;
+    width: 97%;
+    font-family: arial, sans-serif;
+    font-size: small;
+    font-weight: medium;
+    line-height: 40px;
+    color: #666;
+    font-size: 0.8em;
+
+}
+
+#footer-left {
+  float: left;
+  /*clear: right;*/
+}
+
+#clear {
+  /*display: inline;*/
+  padding: 0 20%;
+  /*clear:none;*/
+}
+
+#footer-right {
+  float: right;
+  /*clear: left;*/
+}
